@@ -1,7 +1,6 @@
 {
   "compilerVersion": "./node_modules/solc",
   "outputType": "all",
-  "sourceDirectory": "/home/odyomin/uniswap/deploy/xswap-v2-core/contracts/",
   "compilerOptions": {
     "outputSelection": {
       "*": {
@@ -10,7 +9,8 @@
           "evm.deployedBytecode.object",
           "abi",
           "evm.bytecode.sourceMap",
-          "evm.deployedBytecode.sourceMap"
+          "evm.deployedBytecode.sourceMap",
+          "metadata"
         ],
         "": ["ast"]
       }
